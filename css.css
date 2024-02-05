@@ -1,0 +1,81 @@
+body{
+
+background-color: rgb(238, 238, 238);
+
+}
+
+
+.top {
+ 
+    background-color: rgb(211, 211, 211);
+    width: 100%;
+    padding-top:2% ;
+    padding-bottom: 2%;
+    text-align: center;
+   
+}
+  
+  header{
+
+  font-size: xx-large;
+}
+  .page {
+ 
+    background-color: rgb(238, 238, 238);
+    width: 100%;
+   padding-top: 1%;
+   padding-bottom: 1%;
+    text-align: center;
+    display: flex;
+  flex-direction: row;
+  font-size: x-large;
+    
+    
+  }
+  .page div {
+  background-color: rgb(255, 255, 255);
+
+  width: 50%;
+  padding-top: 1%;  
+  padding-bottom: 1%;
+  padding: left 1%; ;
+  padding: right 1%; ;
+  text-align: center;
+  }
+ 
+  
+  .CVmain {
+    background-color: rgb(255, 255, 255);
+    width: 707px;
+    height: 1000px;
+    border:30px solid rgb(255, 255, 255);
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, 0);
+    
+    }
+
+    .CVmain div {
+      background-color: rgb(255, 255, 255);
+      width: 80%;
+      height: 50%;
+      font-size:larger;
+      position: absolute;
+      text-align: left;
+      left: 50%;
+      transform: translate(-50%, 0);
+      
+      
+      }
+      
+      footer{
+      background-color: rgb(211, 211, 211);
+      width: 100%;
+      padding-top: 2%;
+      padding-bottom: 2%;
+      position:fixed;
+      bottom:0%;
+      text-align: center;
+      
+      }
